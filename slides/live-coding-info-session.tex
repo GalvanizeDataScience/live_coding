@@ -1,0 +1,223 @@
+%% beamer packages
+% other themes: AnnArbor, Antibes, Bergen, Berkeley, Berlin, Boadilla, boxes, 
+% CambridgeUS, Darmstadt, Dresden, Frankfurt, Goettingen, Hannover, Ilmenau,
+%JuanLesPins, Luebeck, Madrid, Malmoe, Marburg, Montpellier, PaloAlto,
+%Pittsburgh, Rochester, Singapore, Szeged, Warsaw
+% other colors: albatross, beaver, crane, default, dolphin, dove, fly, lily, 
+%orchid, rose, seagull, seahorse, sidebartab, structure, whale, wolverine,
+%beetle
+
+%\documentclass[xcolor=dvipsnames]{beamer}
+\documentclass[table,dvipsnames]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage{bm,amsmath,marvosym}
+\usepackage{listings,color}%xcolor
+\usepackage[ngerman]{babel}
+\usepackage{natbib}
+\usepackage[utf8]{inputenc}
+\definecolor{shadecolor}{rgb}{.9, .9, .9}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.5}
+\definecolor{myorange}{cmyk}{0,0.7,1,0}
+%\definecolor{mypurple}{cmyk}{0.5,1.0,0,0.2}
+\definecolor{mypurple}{cmyk}{0.3, 0.9, 0.0, 0.2}
+
+% make a checkmark
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+
+% dot product
+\usetikzlibrary{arrows,positioning}
+\tikzset{
+    %Define standard arrow tip
+    >=stealth',
+    % Define arrow style
+    pil/.style={->,thick}
+}
+
+% math stuff
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+
+\lstnewenvironment{code}{
+    \lstset{backgroundcolor=\color{shadecolor},
+        showstringspaces=false,
+        language=python,
+        frame=single,
+        framerule=0pt,
+        keepspaces=true,
+        breaklines=true,
+        basicstyle=\ttfamily,
+        keywordstyle=\bfseries,
+        basicstyle=\ttfamily\scriptsize,
+        keywordstyle=\color{blue}\ttfamily,
+        stringstyle=\color{red}\ttfamily,
+        commentstyle=\color{green}\ttfamily,
+        columns=fullflexible
+    }
+}{}
+
+\lstnewenvironment{codeout}{
+    \lstset{backgroundcolor=\color{shadecolor},
+        frame=single,
+        framerule=0pt,
+        breaklines=true,
+        basicstyle=\ttfamily\scriptsize,
+        columns=fullflexible
+    }
+}{}
+
+\hypersetup{colorlinks = true, linkcolor=darkblue, citecolor=darkblue,urlcolor=darkblue}
+\hypersetup{pdfauthor={A. Richards}, pdftitle={Projects}}
+
+\newcommand{\rd}{\textcolor{red}}
+\newcommand{\grn}{\textcolor{green}}
+\newcommand{\keywd}{\textcolor{myorange}}
+\newcommand{\highlt}{\textcolor{darkblue}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\def\ci{\perp\!\!\!\perp}
+% set beamer theme and color
+%\usetheme{Frankfurt}
+%\usetheme{Berkeley}
+\usecolortheme{albatross}
+%\usecolortheme{seagull}
+%\setbeamertemplate{blocks}[rounded][shadow=true]
+
+\title[Project teams]{DSI Info Session \\ (Live Coding)}
+\author[Galvanize DS]{E. Wellinger, A. Richards}
+\institute{Denver 5}
+\date[\today]{Last updated: \today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frame{\titlepage}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \frame{
+% \footnotesize
+% \tableofcontents
+% \normalsize
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Scrum}
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{Why Data Science?}
+\begin{block}{}
+ \begin{itemize}
+    \item 
+    \item
+    \item
+    \end{itemize}
+\end{block}
+
+\begin{block}{blah}
+ blah blah
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{Why Python?}
+\begin{block}{}
+ \begin{itemize}
+    \item 
+    \item
+    \item
+    \end{itemize}
+\end{block}
+
+\begin{block}{blah}
+ blah blah
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{The basic data science toolkit}
+\begin{block}{}
+ \begin{itemize}
+    \item 
+    \item
+    \item
+    \end{itemize}
+\end{block}
+
+\begin{block}{blah}
+ blah blah
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{Demo 1}
+\begin{block}{}
+ Tutorial Example
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{Demo 2}
+\begin{block}{}
+ Advanced Example
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{Overview}
+\begin{block}{}
+ \begin{itemize}
+    \item 
+    \item
+    \item
+    \end{itemize}
+\end{block}
+
+\begin{block}{blah}
+ blah blah
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{What do we cover in the immersive?}
+\begin{block}{}
+ \begin{itemize}
+    \item 
+    \item
+    \item
+    \end{itemize}
+\end{block}
+
+\begin{block}{blah}
+ blah blah
+\end{block}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{   
+\frametitle{Resources and Contacts}
+\begin{block}{}
+ \begin{itemize}
+    \item 
+    \item
+    \item
+    \end{itemize}
+\end{block}
+
+\begin{block}{blah}
+ blah blah
+\end{block}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \frame[allowframebreaks]{  
+% \frametitle{References}
+% \begin{tiny} \bibliography{../galvanize.bib}
+% \bibliographystyle{apalike}         % Style BST file
+% \end{tiny}
+% }
+
+\end{document}
